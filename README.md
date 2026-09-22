@@ -1,18 +1,20 @@
 # 🛒 SmartCart
 
-SmartCart is a responsive Flask and MySQL based E-Commerce Web Application designed to provide a simple and user-friendly online shopping experience.
+SmartCart is a responsive Flask and MySQL based E-Commerce Web Application designed to provide a simple, secure, and user-friendly online shopping experience.
 
-The application includes separate Admin and User functionalities, product management, shopping cart operations, order management, Razorpay payment integration, and invoice generation.
+The application provides separate User and Admin modules with product management, shopping cart operations, order management, Razorpay payment integration, and invoice generation.
 
 ---
 
 ## 📌 Project Overview
 
-SmartCart allows users to browse products, add products to their cart, manage quantities, place orders, make online payments, and download invoices.
+SmartCart is a full-stack E-Commerce web application developed using Python Flask and MySQL.
 
-Administrators can manage products, categories, product images, and their profile through a dedicated Admin Dashboard.
+Users can create an account, browse products, search and filter products, add products to their cart, manage quantities, provide a delivery address, make online payments, view their orders, and download invoices.
 
-The application is designed with a responsive and professional interface that works across desktop, tablet, and mobile devices.
+Administrators can manage products and product images through a dedicated Admin Dashboard.
+
+The application also follows a responsive design approach so that the interface can be used across desktop, tablet, and mobile devices.
 
 ---
 
@@ -29,15 +31,16 @@ The application is designed with a responsive and professional interface that wo
 - Filter Products by Category
 - View Product Details
 - Add Products to Cart
-- Increase/Decrease Product Quantity
+- Increase Product Quantity
+- Decrease Product Quantity
 - Remove Products from Cart
 - Select Products for Checkout
-- Add Delivery Address
+- Delivery Address Management
 - Razorpay Payment Integration
 - Payment Confirmation
 - My Orders
 - View Order Details
-- Download Order Invoice
+- Download Invoice
 - User Logout
 
 ---
@@ -63,9 +66,9 @@ The application is designed with a responsive and professional interface that wo
 
 ## 💳 Payment Integration
 
-SmartCart uses **Razorpay** for online payment processing.
+SmartCart uses Razorpay for online payment processing.
 
-The payment flow is:
+### Payment Flow
 
 ```text
 Select Products
@@ -83,3 +86,38 @@ Order Confirmation
 My Orders
        ↓
 Download Invoice
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+- Jinja2 Templates
+- Responsive Web Design
+
+### Backend
+
+- Python
+- Flask
+
+### Database
+
+- MySQL
+
+### Payment Integration
+
+- Razorpay
+
+### Libraries and Tools
+
+- Flask-Mail
+- Bcrypt
+- ReportLab
+- Git
+- GitHub
+
+---
