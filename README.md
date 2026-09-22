@@ -14,7 +14,7 @@ Users can create an account, browse products, search and filter products, add pr
 
 Administrators can manage products and product images through a dedicated Admin Dashboard.
 
-The application also follows a responsive design approach so that the interface can be used across desktop, tablet, and mobile devices.
+The application follows a responsive design approach so that the interface can be used across desktop, tablet, and mobile devices.
 
 ---
 
@@ -86,38 +86,3 @@ Order Confirmation
 My Orders
        ↓
 Download Invoice
-
----
-
-## 🛠️ Technologies Used
-
-### Frontend
-
-- HTML5
-- CSS3
-- JavaScript
-- Jinja2 Templates
-- Responsive Web Design
-
-### Backend
-
-- Python
-- Flask
-
-### Database
-
-- MySQL
-
-### Payment Integration
-
-- Razorpay
-
-### Libraries and Tools
-
-- Flask-Mail
-- Bcrypt
-- ReportLab
-- Git
-- GitHub
-
----
